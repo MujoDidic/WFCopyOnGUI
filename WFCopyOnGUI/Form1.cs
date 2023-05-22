@@ -19,6 +19,7 @@ namespace WFCopyOnGUI
 
         private void btnCopy_Click(object sender, EventArgs e)
         {
+            //seting index of list box and combo box to 0
             listBox1.SelectedIndex = 0;
             comboBox1.SelectedIndex = 0;
             
