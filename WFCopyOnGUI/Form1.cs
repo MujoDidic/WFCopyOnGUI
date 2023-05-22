@@ -17,12 +17,20 @@ namespace WFCopyOnGUI
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = 0;
+            listBox1.SelectedIndex = 0;
+
+        }
+
+        
+
         private void btnCopy_Click(object sender, EventArgs e)
         {
             //seting index of list box and combo box to 0
-            listBox1.SelectedIndex = 0;
-            comboBox1.SelectedIndex = 0;
             
+
             string tempText = endPointLbl.Text;
 
             endPointLbl.Text = sourceLbl.Text;
@@ -37,6 +45,9 @@ namespace WFCopyOnGUI
 
 
             listBox1.Items.Add(endPointLbl.Text);
+            
+            
+            
         }
 
         //Closes whole program
@@ -44,5 +55,6 @@ namespace WFCopyOnGUI
         {
             Close();
         }
+
     }
 }
