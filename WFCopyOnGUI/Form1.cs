@@ -39,6 +39,7 @@ namespace WFCopyOnGUI
             listBox1.Items.Add(endPointLbl.Text);
         }
 
+        //Closes whole program
         private void btnClose_Click(object sender, EventArgs e)
         {
             Close();
