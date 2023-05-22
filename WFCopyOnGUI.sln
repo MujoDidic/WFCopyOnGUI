@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFCopyOnGUI", "WFCopyOnGUI\WFCopyOnGUI.csproj", "{61079C7D-380C-43D5-A8ED-98F80C57E0FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61079C7D-380C-43D5-A8ED-98F80C57E0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61079C7D-380C-43D5-A8ED-98F80C57E0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61079C7D-380C-43D5-A8ED-98F80C57E0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61079C7D-380C-43D5-A8ED-98F80C57E0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA6FB23C-93B3-4892-8078-7D2253D3ACFF}
+	EndGlobalSection
+EndGlobal
