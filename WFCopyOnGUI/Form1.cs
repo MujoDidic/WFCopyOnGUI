@@ -26,7 +26,7 @@ namespace WFCopyOnGUI
 
         
 
-        private void btnCopy_Click(object sender, EventArgs e)
+        private void BtnCopy_Click(object sender, EventArgs e)
         {
             //seting index of list box and combo box to 0
 
@@ -51,12 +51,12 @@ namespace WFCopyOnGUI
         }
 
         //Closes whole program
-        private void btnClose_Click(object sender, EventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnCtoL_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(comboBox1.SelectedItem);
         }
