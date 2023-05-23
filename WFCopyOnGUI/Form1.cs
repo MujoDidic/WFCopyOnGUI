@@ -29,7 +29,7 @@ namespace WFCopyOnGUI
         private void btnCopy_Click(object sender, EventArgs e)
         {
             //seting index of list box and combo box to 0
-            
+
 
             string tempText = endPointLbl.Text;
 
@@ -56,5 +56,9 @@ namespace WFCopyOnGUI
             Close();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add(comboBox1.SelectedItem);
+        }
     }
 }
