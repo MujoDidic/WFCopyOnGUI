@@ -17,6 +17,7 @@ namespace WFCopyOnGUI
             InitializeComponent();
         }
 
+        //seting index of list box and combo box to 0
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
@@ -28,9 +29,6 @@ namespace WFCopyOnGUI
 
         private void BtnCopy_Click(object sender, EventArgs e)
         {
-            //seting index of list box and combo box to 0
-
-
             string tempText = endPointLbl.Text;
 
             endPointLbl.Text = sourceLbl.Text;
